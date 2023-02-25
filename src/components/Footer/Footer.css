@@ -1,0 +1,99 @@
+.footer_container{
+  width: 100%;
+  height: 300px;
+  background-color: black;
+}
+
+.info{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+.info > p{
+  font-size: 20px;
+  color: wheat;
+  font-family: cursive;
+  margin-bottom: 10px;
+}
+
+.top{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+
+.quetions{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: 20px;
+}
+
+.quetions > label{
+  font-size: 20px;
+  color: wheat;
+  font-family: cursive;
+}
+
+.quetions > input{
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+textarea{
+  width: 200px;
+  height: 50px;
+}
+
+.send{
+  width: 70px;
+  height: 30px;
+  color: wheat;
+  background-color: #1b1b1b;
+  margin-top: 10px;
+}
+
+.links{
+  display: flex;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.links > p {
+  font-size: 30px;
+  color: wheat;
+  font-family: cursive;
+  margin-right: 10px;
+}
+
+.a{
+  font-size: 30px;
+  color: wheat;
+}
+
+.a_div1, .a_div2, .a_div3{
+  width: 45px;
+  height: 45px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  transition: 0.5s;
+}
+
+.a_div1:hover{
+  background-color: rgb(233, 69, 154);
+}
+
+.a_div2:hover{
+  background-color: rgb(0, 174, 255);
+}
+
+.a_div3:hover{
+  background-color: rgb(0, 255, 64);
+}

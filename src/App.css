@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.already_add{
+  height: 40px;
+  width: 250px;
+  position: absolute;
+  left: 0;
+  top: 110px;
+  background-color: wheat;
+  font-size: 17px;
+  color: black;
+  font-family: cursive;
+  padding: 5px;
+  border-radius: 5px;
+}

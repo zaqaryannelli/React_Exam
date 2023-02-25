@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav_list{
+    list-style: none;
+}
+
+.nav_link{
+    text-decoration: none;
+    color: wheat;
+    font-family: cursive;
+    font-size: 25px;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.nav_span{
+    margin-left: 10px;
+}
+
+.title{
+    font-size: 40px;
+    font-family: cursive;
+    color: wheat;
+    font-weight: bold;
+}
+
+.nav_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
+.nav_toggler > div {
+    width: 2.5rem;
+    height: 0.2rem;
+    margin: 0.24rem;
+    background: wheat;
+    transition: 0.2s ease-in;
+}
+
+.nav_toggler{
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width: 800px){
+    .nav_span{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .nav_toggler{
+        display: block;
+    }
+
+    .nav_span{
+        display: block;
+    }
+
+    .nav_menu{
+        position: absolute;
+        right: 0;
+        width: 50%;
+        height: 93vh;
+        background: black;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: 0.2s ease-in;
+    }
+}
+
+.nav_active{
+    transform: translateX(0);
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-4px, 5px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-4px, -5px);
+}

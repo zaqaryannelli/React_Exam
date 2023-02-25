@@ -1,0 +1,56 @@
+.register{
+  padding-top: 110px;
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #1b1b1b;
+  color: wheat;
+}
+
+.register_container, .register_form{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+.register_container{
+  padding: 5rem;
+  border: 3px solid wheat;
+  border-radius: 20px;
+}
+
+.register_label{
+  text-align: left;
+  padding: 0.25rem, 0;
+  font-family: cursive;
+}
+
+.register_input{
+  margin: 0.5rem 0;
+  padding: 1rem;
+  bottom: none;
+  border-radius: 10px;
+  font-family: cursive;
+}
+
+.login_button{
+  border: none;
+  background-color: wheat;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: cursive;
+}
+
+.link_button{
+  border: none;
+  background-color: wheat;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: cursive;
+  background: none;
+  color: wheat;
+  text-decoration: underline;
+  font-family: cursive;
+}
